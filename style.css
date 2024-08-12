@@ -1,0 +1,210 @@
+.logo {
+  width: 50px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  color: #a48f7a;
+  align-items: center;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #3e2d1c;
+  max-width: 700px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 100px;
+  h2 {
+    color: #3e2d1c;
+    padding: 1rem;
+  }
+  p {
+    padding: 1rem;
+    text-align: center;
+  }
+  span {
+    color: #3e2d1c;
+    font-weight: 600;
+  }
+  a {
+    color: #3e2d1c;
+  }
+}
+
+.portræt {
+  img {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border-radius: 0px;
+    border-style: ridge;
+    margin-left: auto;
+    margin-right: 4rem;
+    margin-top: 40px;
+  }
+}
+.pynt {
+  img {
+    max-width: 800px;
+    margin-left: 55rem;
+    margin-top: -550px;
+    margin-bottom: 400px;
+  }
+}
+.kea {
+  img {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: -300px;
+    margin-left: 18rem;
+    transform: rotate(-15deg);
+    margin-left: 15rem;
+    margin-right: auto;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  color: #a48f7a;
+  height: 80px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  list-style: none;
+}
+.menu a {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: solid;
+  background-color: #a48f7a;
+  border-color: #a48f7a;
+  border-width: 0.1rem;
+}
+
+.title {
+  background-color: #675646;
+  color: whitesmoke;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+}
+
+.beskrivelse {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3e2d1c;
+  background-color: whitesmoke;
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #3e2d1c;
+}
+
+.beskrivelse2 {
+  color: #3e2d1c;
+  text-align: center;
+}
+
+nav.links {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+nav.links a {
+  background-color: #675646;
+  color: whitesmoke;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 1rem;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  color: #a48f7a;
+  align-items: center;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #3e2d1c;
+  max-width: 700px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 100px;
+  padding: 1rem;
+  text-align: center;
+  h2 {
+    color: #3e2d1c;
+  }
+  a {
+    color: #3e2d1c;
+  }
+}
+
+.small-box {
+  display: flex;
+  flex-direction: column;
+  color: #a48f7a;
+  align-items: center;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #3e2d1c;
+  max-width: 700px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 100px;
+  padding: 1rem;
+  h2 {
+    color: #3e2d1c;
+  }
+}
+.portræt1 {
+  img {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border-radius: 0px;
+    border-style: ridge;
+    margin-left: auto;
+    margin-right: 4rem;
+    margin-top: -300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portræt1 {
+    position: relative;
+    margin-top: 400px;
+  }
+  .kea,
+  .pynt {
+    display: none;
+  }
+  .menu {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
